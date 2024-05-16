@@ -1,25 +1,21 @@
-import 'package:mendez0384/movies.dart';
-import 'package:mendez0384/profile.dart';
+import 'package:mendez0384/venta.dart';
+import 'package:mendez0384/automovil.dart';
 import 'package:flutter/material.dart';
 
-import 'contact.dart';
-import 'spacearound.dart';
-import 'spacebetween.dart';
-import 'stretch.dart';
-import 'inicio.dart';
+import 'local.dart';
+import 'vendedor.dart';
+import 'cliente.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  static const String inicio = Inicio.routeName;
-  static const String profile = Profile.routeName;
-  static const String movies = Movies.routeName;
-  static const String contacts = Contact.routeName;
-  static const String spacearound = SpaceAround.routeName;
-  static const String spacebetween = SpaceBetween.routeName;
-  static const String stretch = Stretch.routeName;
+  static const String cliente = Cliente.routeName;
+  static const String automovil = Automovil.routeName;
+  static const String venta = Venta.routeName;
+  static const String local = Local.routeName;
+  static const String vendedor = Vendedor.routeName;
 
   // This widget is the root of your application.
   @override
@@ -32,15 +28,13 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: {
-        inicio: (context) => Inicio(),
-        profile: (context) => Profile(),
-        movies: (context) => Movies(),
-        contacts: (context) => Contact(),
-        spacearound: (context) => SpaceAround(),
-        spacebetween: (context) => SpaceBetween(),
-        stretch: (context) => Stretch(),
+        cliente: (context) => Cliente(),
+        automovil: (context) => Automovil(),
+        venta: (context) => Venta(),
+        local: (context) => Local(),
+        vendedor: (context) => Vendedor(),
       },
-      home: Inicio(),
+      home: Cliente(),
     );
   }
 }

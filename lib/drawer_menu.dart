@@ -12,41 +12,30 @@ class DrawerMenu extends StatelessWidget {
           _buildDrawerHeader(),
           _buildDrawerItem(
               icon: Icons.home,
-              text: 'Row centrado',
+              text: 'Cliente',
               onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.inicio)}),
+                  {Navigator.pushReplacementNamed(context, MyApp.cliente)}),
           _buildDrawerItem(
               icon: Icons.account_circle,
-              text: 'Row start (Izq)',
+              text: 'Automovil',
               onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.profile)}),
+                  {Navigator.pushReplacementNamed(context, MyApp.automovil)}),
           _buildDrawerItem(
               icon: Icons.movie,
-              text: 'Row end (Der)',
+              text: 'Venta',
               onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.movies)}),
+                  {Navigator.pushReplacementNamed(context, MyApp.venta)}),
           Divider(),
           _buildDrawerItem(
               icon: Icons.contact_phone,
-              text: 'Space Evenly',
+              text: 'Local',
               onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.contacts)}),
+                  {Navigator.pushReplacementNamed(context, MyApp.local)}),
           _buildDrawerItem(
               icon: Icons.abc,
-              text: 'Space Around',
+              text: 'Vendedor',
               onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.spacearound)}),
-          _buildDrawerItem(
-              icon: Icons.car_crash,
-              text: 'Space between',
-              onTap: () => {
-                    Navigator.pushReplacementNamed(context, MyApp.spacebetween)
-                  }),
-          _buildDrawerItem(
-              icon: Icons.info,
-              text: 'Stretch',
-              onTap: () =>
-                  {Navigator.pushReplacementNamed(context, MyApp.stretch)}),
+                  {Navigator.pushReplacementNamed(context, MyApp.vendedor)}),
         ],
       ),
     );
@@ -64,7 +53,7 @@ class DrawerMenu extends StatelessWidget {
           Positioned(
               bottom: 12.0,
               left: 16.0,
-              child: Text("Compilación Movil",
+              child: Text("Registro de Porsche",
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 20.0,
