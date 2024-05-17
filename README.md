@@ -19,8 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 - Join the discussion and conversation on https://flutlab.io/residents
 ## RESULTADOS
 ![image](https://github.com/MendezD128/Actividad10/assets/143744206/7f91e141-54a1-4c1a-90b1-6fc580c09f3d)
-![image](https://github.com/MendezD128/Actividad10/assets/143744206/6f2e5307-a06c-4984-91dc-570b9089157b)
-![image](https://github.com/MendezD128/Actividad10/assets/143744206/335897d8-a11c-4a51-a3fd-e3b4b524d988)
-![image](https://github.com/MendezD128/Actividad10/assets/143744206/1b6d4740-668c-486e-938b-6ae829234cf8)
-![image](https://github.com/MendezD128/Actividad10/assets/143744206/1ea5992d-81bf-4781-8413-b37287146482)
-![image](https://github.com/MendezD128/Actividad10/assets/143744206/f7373ab3-6f25-46b4-8ca2-37b82714c94d)
+![image](https://github.com/MendezD128/Actividad10/assets/143744206/565a7942-48a6-4105-b692-9f6b9c11b4d7)
+![image](https://github.com/MendezD128/Actividad10/assets/143744206/58cef7db-ae04-4a34-9abe-2419421222b0)
+![image](https://github.com/MendezD128/Actividad10/assets/143744206/6b9daf3e-1e49-46f7-9582-84f92efe12fd)
+![image](https://github.com/MendezD128/Actividad10/assets/143744206/e454d77f-fb3a-475b-90d8-54572ca51462)
+![image](https://github.com/MendezD128/Actividad10/assets/143744206/a105e07f-f4dc-4195-b406-3e2e120d5391)
